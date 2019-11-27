@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kento Homma</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap Javascript(jQuery含む) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body ontouchstart="">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <footer>
+    <div class="container">
+      <p>©Kento Homma's portfolio</p>
+    </div>
+  </footer>
+</html>
+
+<script>
+</script>
+
+<style>
+* {box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "arial unicode ms", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 140px 0 100px 0;
+  background-image: url(https://kentohomma-first-bucket.s3-ap-northeast-1.amazonaws.com/%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  letter-spacing: 5px;
+  width: 100%;
+  border-right: .08em solid;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(25, end), caret .5s step-end infinite;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 100px;
+  text-align: center;
+  background-color: #222834e6;
+  transition: 0.15s;
+}
+
+.btn:hover {
+  opacity: 1;
+  color: white;
+}
+
+.headerbtn:{
+  color: white;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #222834e6;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 15px;
+  padding: 16px 0px;
+  display: block;
+}
+
+button{
+  padding: 20px;
+}
+
+.dropdown-toggle::after {
+  display: none; 
+}
+
+.dropdown-toggle {
+  border-radius: 10px !important;
+  background-color: #f7f7f9 !important;
+  margin-top: -15px;
+}
+
+.dropdown-item {
+  padding: 0.6em 0rem;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: white;
+}
+
+.dropdown-menu.show {
+  opacity:0.9;
+  border-radius: 20px;
+  background-color: #f7f7f9;
+}
+
+/*シンプル追及により思い切って全サイズでボタンに変更*/
+/*.header-links {
+  float: right!important;
+  text-align: center!important;
+  display: none;
+}
+
+.header-links router-link {
+  line-height: 65px;
+  padding: 0 15px;
+  color: white;
+  float: left;
+  transition: all 0.5s;
+  opacity:0.8;
+}
+
+.header-links router-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+*/
+
+.heading{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.heading h3 {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.heading con{
+  text-align: center;
+}
+
+.lesson-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f4f4f5;
+  text-align: center;
+}
+
+.lesson {
+  float: left;
+  width: 33%;
+  height:200px;
+  border: 1px solid lightgray;
+  padding: 15px;
+  box-shadow: 0 3px #222834e6;
+  border-radius: 10px;
+  background-color: #f7f7f9;
+}
+
+.lesson:active {
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+
+.lesson:hover{
+  background-color:white;
+  transition:0.2s;
+}
+
+.lesson router-link {
+  position:relative;
+}
+
+.lesson p {
+  color: gray;
+}
+
+.text-contents {
+  width: 90%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px!important;
+  color: #b3aeb5;
+  margin:4px;
+}
+
+footer p {
+  color: lightgray;
+  font-size: 12px;
+  text-align: center
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  background-image: url(https://kentohomma-first-bucket.s3-ap-northeast-1.amazonaws.com/%E3%82%B3%E3%83%B3%E3%82%AF%E3%83%AA.jpg);
+  background-size: cover;
+}
+
+@keyframes typing { from { width: 0; } }
+@keyframes caret { 50% { border-color: transparent; } }
+
+/* タブレットレイアウト */
+@media all and (max-width: 1366px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 35px;
+  }
+  
+  footer{
+  padding-top: 250px;
+  padding-bottom: 5px;
+}
+
+/* スマホレイアウト */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%!important;
+  }
+
+  .btn {
+    width: 100%!important;
+    margin-bottom: 10px
+  }
+
+  .header-links router-link {
+    display: none;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 25px;
+    white-space: inherit;
+  }
+  
+  footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  }
+}
+</style>
