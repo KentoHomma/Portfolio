@@ -46,6 +46,7 @@ export default {
 
 .works.lesson {
   height:235px;
+  cursor:pointer;
 }
 
 .works p{
@@ -72,6 +73,7 @@ stillmaking.lesson:active {
 
 stillmaking.lesson:hover {
   background-color: #f4f4f5;
+  cursor:default;
 }
 
 </style>

@@ -32,7 +32,7 @@
           <nobtn-Aboutme class="lesson nobtn">
             <p>映画・音楽・ゲーム</p>
             <con class="text-contents"><b>映画</b>：『カッコーの巣の上で』『いまを生きる』『チョコレートドーナツ』『ビューティフルマインド』とかちょっと陰鬱なヒューマンドラマが好きです。あとは『パプリカ』を初めとして今敏監督のアニメ映画が全部好きです。</con>
-            <con class="text-contents"><b>音楽</b>：Perfume、Kraftwerk、YMO、P-Model、Zazen Boys、藍坊主、スネオヘアー、People in the box、King gnu、Tempalay、ドミコ、呂布カルマ、MOROHA、不可思議Wonderboy等。</con>
+            <con class="text-contents"><b>音楽</b>：Perfume、Kraftwerk、YMO、P-Model、Zazen Boys、星野源、藍坊主、スネオヘアー、People in the box、King gnu、Tempalay、ドミコ、呂布カルマ、MOROHA、不可思議Wonderboy等。</con>
             <con class="text-contents"><b>ゲーム</b>：DQ3~8, FF4~12、聖剣伝説1~3、ロマサガ1~3、マリオRPG、天地創造、バハムートラグーン、ルドラの秘宝、モンスターファーム2、地球防衛軍2、塊魂、ぷよぷよ、太鼓の達人、テイルズウィーバー等。<br>基本的にスーファミのRPGが大好きで、ちらほらRTAもやってました。</con>
           </nobtn-Aboutme>
           <nobtn-Aboutme class="lesson nobtn">
@@ -43,7 +43,7 @@
              <con class="text-contents"><b>野草</b>：大学時代に野草を調理して食費を浮かしてたら結構詳しくなってました。</con>
              <con class="text-contents"><b>治験入院</b>：計七回参加のベテランモルモットです。誕生日を二度施設で迎えてます。</con>
              <con class="text-contents"><b>バーテン</b>：毎晩のようにバイトで酒作って常連とワイワイ飲んでました。</con>
-             <con class="text-contents"><b>ポーカー</b>：新卒捨てて一年半、主にポーカーで生きてました。<a href="https://alcohole.hatenadiary.com/entry/2018/03/15/181642">そのときのブログ</a>は我ながら面白いです。</con>
+             <con class="text-contents"><b>ポーカー</b>：新卒捨てて一年半、主にポーカーで生きてました。<a href="https://alcohole.hatenadiary.com/entry/2018/03/15/181642">そのときのブログ</a>はかなり面白いです。</con>
 
           </nobtn-Aboutme>
           <div class="clear"></div>
